@@ -6,7 +6,7 @@ AuricPOS is a Point of Sale (POS) system designed for gold/jewelry businesses, e
 
 ---
 
-## **Project Objective**
+## 📖 **Project Objective**
 
 The main goal of **AuricPOS – GoldPOS** is to provide gold and jewelry businesses with a streamlined POS system that:
 
@@ -17,7 +17,7 @@ The main goal of **AuricPOS – GoldPOS** is to provide gold and jewelry busines
 
 ---
 
-## **Technologies Used**
+## 🛠️ **Technologies Used**
 
 - ![React.js](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61dafb)  
 - ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)  
@@ -28,7 +28,7 @@ The main goal of **AuricPOS – GoldPOS** is to provide gold and jewelry busines
 
 ---
 
-## **How to Run the Project**
+## 🚀 **How to Run the Project**
 
 ### **1. Clone the Repository**
 
