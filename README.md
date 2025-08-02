@@ -4,6 +4,8 @@
 
 AuricPOS is a Point of Sale (POS) system designed for gold/jewelry businesses, enabling smooth inventory tracking, billing, and customer management.
 
+[![Product Screenshot](screenshots/about.png)](https://github.com/emanfaisal333/auric-pos)
+
 ---
 
 ## 📖 **About The Project**
