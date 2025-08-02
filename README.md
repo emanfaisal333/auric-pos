@@ -6,7 +6,7 @@ AuricPOS is a Point of Sale (POS) system designed for gold/jewelry businesses, e
 
 ---
 
-## 📖 **Project Objective**
+## 📖 **About The Project**
 
 The main goal of **AuricPOS – GoldPOS** is to provide gold and jewelry businesses with a streamlined POS system that:
 
@@ -30,6 +30,11 @@ The main goal of **AuricPOS – GoldPOS** is to provide gold and jewelry busines
 
 ## 🚀 **How to Run the Project**
 
+### Prerequisites
+
+- Node.js and npm
+- MongoDB installed or MongoDB Atlas account
+
 ### **1. Clone the Repository**
 
 ```bash
@@ -44,7 +49,7 @@ cd AuricPOS-GoldPOS
 
 cd backend
 npm install
-npm start
+
 ```
 This starts the backend server.
 
@@ -52,9 +57,8 @@ This starts the backend server.
 Open a new terminal and run:
 
 ```bash
-cd frontend
+cd goldPOS
 npm install
-npm start
 ```
 This runs the frontend on your local development server (usually http://localhost:3000).
 
@@ -67,4 +71,42 @@ env
 ```bash
 MONGO_URI=your-mongodb-connection-string
 PORT=5000
+JWT_SECRET=your_jwt_secret
 ```
+
+5. Create a `.env` file in `goldPOS/` with your environment variables:
+
+env
+VITE_API_BASE_URL=base_url
+
+
+6. Start the backend server
+
+```bash
+cd ../backend
+nodemon server.js
+```
+
+7. Start the frontend app
+
+```bash
+cd ../goldPOS
+npm run dev
+```
+
+---
+
+## 🔐 Authentication
+
+- Login with registered credentials
+- JWT-based authentication and route protection
+- Admin/staff role separation
+
+---
+
+## 📌 Deployment
+
+Auric POS is live at:  
+👉 [**http://www.auricpos.com/**](http://www.auricpos.com/)
+
+---
