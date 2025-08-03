@@ -4,7 +4,7 @@
 
 AuricPOS is a Point of Sale (POS) system designed for gold/jewelry businesses, enabling smooth inventory tracking, billing, and customer management.
 
-[![Product Screenshot](screenshots/about.png)](https://github.com/emanfaisal333/auric-pos)
+
 
 ---
 
@@ -16,6 +16,8 @@ The main goal of **AuricPOS – GoldPOS** is to provide gold and jewelry busines
 - Simplifies billing and customer records.
 - Provides a responsive and user-friendly interface for retail operations.
 - Uses modern technologies for scalability and performance.
+
+  [![Product Screenshot](screenshots/about.png)](https://github.com/emanfaisal333/auric-pos)
 
 ---
 
@@ -44,7 +46,7 @@ git clone https://github.com/emanfaisal333/AuricPOS-GoldPOS.git
 ```
 2. Navigate to the Project Directory
 ```bash
-cd AuricPOS-GoldPOS
+cd auric-pos
 ```
 3. Set up the Backend
 ```bash
@@ -62,34 +64,33 @@ Open a new terminal and run:
 cd goldPOS
 npm install
 ```
-This runs the frontend on your local development server (usually http://localhost:3000).
+   This runs the frontend on your local development server (usually http://localhost:3000).
 
 5. Configure the Database
-Make sure MongoDB is installed and running locally, or use a cloud MongoDB service (like MongoDB Atlas).
+   Make sure MongoDB is installed and running locally, or use a cloud MongoDB service (like MongoDB Atlas).
 
-Set your database connection string in a .env file inside the backend folder:
+6. Set your database connection string in a .env file inside the backend folder:
 
-env
 ```bash
 MONGO_URI=your-mongodb-connection-string
 PORT=5000
 JWT_SECRET=your_jwt_secret
 ```
 
-5. Create a `.env` file in `goldPOS/` with your environment variables:
+7. Create a `.env` file in `goldPOS/` with your environment variables:
 
-env
+```
 VITE_API_BASE_URL=base_url
+```
 
-
-6. Start the backend server
+8. Start the backend server
 
 ```bash
 cd ../backend
 nodemon server.js
 ```
 
-7. Start the frontend app
+9. Start the frontend app
 
 ```bash
 cd ../goldPOS
@@ -112,3 +113,46 @@ Auric POS is live at:
 👉 [**http://www.auricpos.com/**](http://www.auricpos.com/)
 
 ---
+
+
+## 📸 System Screenshots
+
+<details>
+<summary>🏠 Website Pages</summary>
+
+### About Page
+![About](screenshots/about.png)
+
+### About Us Section
+![About Us](screenshots/aboutus.png)
+
+### FAQs
+![FAQs](screenshots/faqs.png)
+
+### Testimonials
+![Testimonials](screenshots/testimonials.png)
+
+### Pricing Page
+![Pricing](screenshots/pricing.png)
+
+</details>
+
+<details>
+<summary>📊 POS</summary>
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Admin Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Customers View
+![Customers](screenshots/customers.png)
+
+### Retailers View
+![Retailers](screenshots/retailers.png)
+
+### Order Form
+![Form](screenshots/Form.png)
+
+</details>
